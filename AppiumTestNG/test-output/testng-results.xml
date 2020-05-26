@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="26" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="302" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="day2.pload()[pri:0, instance:test.day2@731a74c]" name="pload" class="test.day2"/>
+        <method signature="day3.MobileLoginCarLoan()[pri:0, instance:test.day3@26aa12dd]" name="MobileLoginCarLoan" class="test.day3"/>
+        <method signature="day4.LoginAPIHomeLoan()[pri:0, instance:test.day4@4e7dc304]" name="LoginAPIHomeLoan" class="test.day4"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Personal Loan" duration-ms="78" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+      <class name="test.day2">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.day2@731a74c]" name="prerequisite" is-config="true" duration-ms="3" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="pload()[pri:0, instance:test.day2@731a74c]" name="pload" duration-ms="4" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pload -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@369f73a2]" name="Demo" duration-ms="15" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:test.day1@369f73a2]" name="lastexecution" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test name="Car Loan" duration-ms="60" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+      <class name="test.day3">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:test.day3@5d76b067]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="TestCarLoan1()[pri:0, instance:test.day3@5d76b067]" name="TestCarLoan1" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCarLoan1 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="BeforeEveryMethod" is-config="true" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="TestCarLoan2()[pri:0, instance:test.day3@5d76b067]" name="TestCarLoan2" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCarLoan2 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:test.day3@5d76b067]" name="dataProviderTest" duration-ms="1" started-at="2020-05-17T20:53:38 BST" data-provider="getData" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:test.day3@5d76b067]" name="dataProviderTest" duration-ms="1" started-at="2020-05-17T20:53:38 BST" data-provider="getData" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="BeforeEveryMethod" is-config="true" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:test.day3@5d76b067]" name="dataProviderTest" duration-ms="1" started-at="2020-05-17T20:53:38 BST" data-provider="getData" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="AfterEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.day3@5d76b067]" name="LoginAPICarLoan" duration-ms="2" started-at="2020-05-17T20:53:38 BST" depends-on-methods="test.day3.TestCarLoan1, test.day3.TestCarLoan2" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@5d76b067]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:test.day3@5d76b067]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Additional Test" duration-ms="72" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+      <class name="test.day3">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:test.day3@26aa12dd]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.day3@26aa12dd]" name="MobileLoginCarLoan" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="MobileLogoutCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@26aa12dd]" name="MobileLogoutCarLoan" duration-ms="3" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogoutCarLoan -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="MobileSignupCarLoan()[pri:0, instance:test.day3@26aa12dd]" name="MobileSignupCarLoan" duration-ms="9" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignupCarLoan -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="TestCarLoan1()[pri:0, instance:test.day3@26aa12dd]" name="TestCarLoan1" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCarLoan1 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="TestCarLoan2()[pri:0, instance:test.day3@26aa12dd]" name="TestCarLoan2" duration-ms="3" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCarLoan2 -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:test.day3@26aa12dd]" name="dataProviderTest" duration-ms="1" started-at="2020-05-17T20:53:38 BST" data-provider="getData" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:test.day3@26aa12dd]" name="dataProviderTest" duration-ms="1" started-at="2020-05-17T20:53:38 BST" data-provider="getData" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:test.day3@26aa12dd]" name="dataProviderTest" duration-ms="1" started-at="2020-05-17T20:53:38 BST" data-provider="getData" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="BeforeEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="BeforeEveryMethod" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEveryMethod -->
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.day3@26aa12dd]" name="LoginAPICarLoan" duration-ms="1" started-at="2020-05-17T20:53:38 BST" depends-on-methods="test.day3.TestCarLoan1, test.day3.TestCarLoan2" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method status="PASS" signature="AfterEveryMethod()[pri:0, instance:test.day3@26aa12dd]" name="AfterEveryMethod" is-config="true" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEveryMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:test.day3@26aa12dd]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Additional Test -->
+    <test name="Home Loan" duration-ms="14" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+      <class name="test.day4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:test.day4@4e7dc304]" name="LoginAPIHomeLoan" duration-ms="2" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan(java.lang.String)[pri:0, instance:test.day4@4e7dc304]" name="MobileLoginHomeLoan" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.qaclickacademyCarLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:test.day4@4e7dc304]" name="WebLoginHomeLoan" duration-ms="1" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day3">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:test.day3@26aa12dd]" name="BeforeSuite" is-config="true" duration-ms="13" started-at="2020-05-17T20:53:38 BST" finished-at="2020-05-17T20:53:38 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:test.day3@26aa12dd]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2020-05-17T20:53:39 BST" finished-at="2020-05-17T20:53:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
